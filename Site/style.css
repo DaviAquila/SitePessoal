@@ -1,0 +1,10 @@
+.navbar-custom {
+    height: 7rem;
+}
+
+.fixedHeightImg > img {
+    max-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }

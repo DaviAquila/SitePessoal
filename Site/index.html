@@ -13,7 +13,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark h-70">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
     <a class="navbar-brand" href="#">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
       aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
@@ -36,9 +36,36 @@
       </span>
     </div>
   </nav>
+  <!--  -->
 
-  
-
+  <!-- Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active fixedHeightImg">
+        <img class="d-block w-100 img-fluid" src="img/PrimeiraFotoCarousel.jpg" alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item fixedHeightImg">
+        <img class="d-block w-100 img-fluid" src="img/SegundaFotoCarousel.jpg" alt="Segundo Slide">
+      </div>
+      <div class="carousel-item fixedHeightImg">
+        <img class="d-block w-100 img-fluid" src="img/TerceiraFotoCarousel.jpg" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+  <!--  -->
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
