@@ -14,7 +14,7 @@
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-color navbar-custom">
-    <a class="navbar-brand" href="index.html">Home</a>
+    <a class="navbar-brand link-custom" href="index.html">Home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
       aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
@@ -22,47 +22,33 @@
     <div class="collapse navbar-collapse" id="textoNavbar">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="navbar-brand" href="#">Futebol</a>
+          <a class="navbar-brand link-custom" href="#">Futebol</a>
         </li>
         <li class="nav-item">
-          <a class="navbar-brand" href="#">Animais</a>
+          <a class="navbar-brand link-custom" href="#">Animais</a>
         </li>
         <li class="nav-item">
-          <a class="navbar-brand" href="#">Sobre</a>
+          <a class="navbar-brand link-custom" href="#">Sobre</a>
         </li>
       </ul>
     </div>
   </nav>
   <!--  -->
 
-  <!-- Carousel -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active fixedHeightImg">
-        <img class="d-block w-100 img-fluid" src="img/PrimeiraFotoCarousel.jpg" alt="Primeiro Slide">
+  <main>
+    <div class="container-custom">
+      <div class="main-text">
+        <h1>Quem sou eu?</h1>
+        <p>Meu nome é Davi, tenho 19 anos e atualmente esotu estudando desenvolvimento de software mulitplataforma na
+          Fatec
+          de Itapira, fazendo um breve resumo, meu esporte favorito é futebol e sou santista, tenho 3 animais de
+          estimação
+          2 cachorras e 1 gata, moro em Mogi Mirim e atualmente so estou estudando.</p>
       </div>
-      <div class="carousel-item fixedHeightImg">
-        <img class="d-block w-100 img-fluid" src="img/SegundaFotoCarousel.jpg" alt="Segundo Slide">
-      </div>
-      <div class="carousel-item fixedHeightImg">
-        <img class="d-block w-100 img-fluid" src="img/TerceiraFotoCarousel.jpg" alt="Terceiro Slide">
-      </div>
+      <div class="main-img"> <img src="img/SegundaFotoCarousel.jpg"></div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Próximo</span>
-    </a>
-  </div>
-  <!--  -->
+  </main>
+
 </body>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
