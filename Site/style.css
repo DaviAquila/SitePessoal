@@ -32,7 +32,7 @@ main {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 88.5vh;
+    height: 88.3vh;
 }
 
 .container-custom{
@@ -61,4 +61,18 @@ main {
 
 .main-img, img {
     border-radius: 80px;
+}
+
+.container-futebol {
+    background: url(img/img-santos.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.titulo-futebol {
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
 }
